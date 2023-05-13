@@ -1,0 +1,274 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "id": 7
+    },
+    {
+      "email": "harish1@gmail.com",
+      "password": "$2a$10$svGznVNLN48xPFxadLPhLOxfYzOIpTgi8wahFfuptRKoXlAAZWsqa",
+      "username": "harish1",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "vach@gmail.com",
+      "password": "$2a$10$5xhbG3oIGsjfaXVvpO84.OghcegTfQ3HbqmunIRFHLIgFW9VYPF5e",
+      "username": "vacha",
+      "type": "user",
+      "id": 9
+    },
+    {
+      "email": "vignesh@gmail.com",
+      "password": "$2a$10$CuV5B9w24d3IK.kDfk3UIODvO8YjskwuD3kp5Dl7gCUCwy2GiKZtW",
+      "username": "vignesh",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "vachalap@gmail.com",
+      "password": "$2a$10$7z9dcE2MkZlrtw.m/PLugeWOktyCdzO22dmZsrA0pvFZ1JFw0zMVO",
+      "username": "vachala p",
+      "type": "user",
+      "id": 11
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$QeXH89hL9MkR5L7Ysnuqmez0SvmjJExNKOM8uXq0kX3TtKKNWcRJm",
+      "username": "admin",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$AiGngyghTlXCTXGLMNSd0ezaNthAFqQTWJToK8y2xGOWj93vvJuN2",
+      "type": "admin",
+      "username": "admin1",
+      "id": 13
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "INDIAN ADMINISTRATIVE SYSTEM",
+      "description": "The Indian Administrative Service (IAS) is the administrative arm of the All India Services of Government of India.[3] Considered the premier civil service of India.The IAS is a part of the union civil services and is one of the three arms of the All India Services along with the Indian Police Service being a part of union civil services Indian Forest Service being a part of the union natural resources services.There are three modes of recruitment into the Indian Administrative Service. IAS officers may enter the IAS by passing the Civil Services Examination, which is conducted by the Union Public Service Commission (UPSC).[3] Officers recruited this way are called direct recruits. Some IAS officers are also recruited from the state civil services,[3] and, in rare cases, selected from non-state civil service.[3] The ratio between direct recruits and promotees is fixed at 2:1. All IAS officers, regardless of the mode of entry, are appointed by the President of India. President Murmu with a group of IAS officers (2020 batch) at Rashtrapati Bhavan, in New Delhi.Only about 180 candidates out of over 1 million applicants, who apply through CSE, are successful, a success rate of less than 0.02 per cent ",
+      "type": "Civil",
+      "image": "IAS.jpg"
+    },
+    {
+      "id": 2,
+      "name": "INDIAN POLICE SERVICE",
+      "type": "Civil",
+      "image": "IPS.jpg",
+      "description": "The Indian Police Service (IPS) is one of the three All India Services constituted under Article 312 of the Constitution of India. The IPS officers provide senior level leadership to Police Forces both in the States and at the Centre. The Police Division in the Ministry of Home Affairs (MHA) is responsible for Cadre management of IPS and Policy Decisions such as cadre structure, recruitment, training, cadre allocation, confirmation, empanelment, deputation, pay and allowances, disciplinary matters of IPS Officers.  "
+    },
+    {
+      "id": 3,
+      "name": "INDIAN FOREIGN SERVICE",
+      "type": "Group A",
+      "image": "IFS.jpg",
+      "description": "The Indian Foreign Service (IFS) is the diplomatic service and a central civil service of the Government of India under the Ministry of External Affairs.[3] The Foreign Secretary is the head of the service. Vinay Mohan Kwatra is the 34th and the current Foreign Secretary.The service, consisting of civil servants is entrusted with handling the foreign relations of India, providing consular services and to mark India's presence in international organizations.[4] It is the body of career diplomats serving in more than 160 Indian diplomatic missions and international organizations around the world."
+    },
+    {
+      "id": 4,
+      "name": "INDIAN FOREST SERVICE",
+      "type": "Civil",
+      "image": "IFOS.jpg",
+      "description": "The Indian Forest Service (IFOS) is one of the three All India Services of the Government of India. The other two All India Services being the Indian Administrative Service and the Indian Police Service.[2][3][4] It was constituted in the year 1966 under the All India Services Act, 1951, by the Government of India.The service implements the National Forest Policy[5] in order to ensure the ecological stability of the country through the protection and participatory sustainable management of natural resources. The members of the service also manage the National Parks, Tiger Reserve, Wildlife Sanctuaries and other Protected Areas of the country. A Forest Service officer is wholly independent of the district administration and exercises administrative, judicial and financial powers in their own domain."
+    },
+    {
+      "id": 5,
+      "name": "INDIAN AUDIT AND ACCOUNTS SERVICE",
+      "type": "Group A",
+      "image": "IAAS.jpg",
+      "description": "Indian Audit and Accounts Service is a Central Group 'A' central civil service under the Comptroller and Auditor General of India, Government of India. The central civil servants under the Indian Audit and Accounts Service serve in an audit managerial capacity, in the Indian Audit and Accounts Department. IA&AS is responsible for auditing the accounts of the Union and State governments and public sector organizations, and for maintaining the accounts of State governments. Its role is somewhat similar to the US GAO and National Audit Office (United Kingdom).The service can be divided into officers looking after accounting and audit issues pertaining to the Union government and the State governments, and those manning the department's headquarters. The state accounts and audit offices are headed by Accountants General or Principal Accountants General. They are functionally equivalent; only the designations vary. Major states have three Principal Accountants General (PAsG) or Accountants General (AsG), each heading Accounts and Entitlement (i.e., compiling state accounts, maintaining pension accounts, loan accounts, etc.), Cluster 1 (General Administration, Finance, Health & Family Welfare, Water Resource, Rural Development, PRIs, Agriculture & Food) or Cluster 2 (Energy, Power, Industry & Commerce, Transport, Urban Development, Environment, S&T, Information Technology Public Works, Law & Order, Art & Culture). "
+    },
+    {
+      "id": 6,
+      "name": "DANIAS",
+      "type": "Group B",
+      "image": "DANIAS.jpg",
+      "description": "For selection into DANIAS, one has to qualify the Civil Services Exam, which is held annually. The Civil Services Examination has a three-stage competitive selection process. At stage one, there is an objective type examination called the preliminary exam. This is a qualifying examination. It consists of a General Studies paper and an aptitude test. Only the candidates who pass this can appear for the 'main examination'which consists of nine papers. Each candidate has to select an optional subject (two papers in the form of Paper A and Paper B as per the prescribed syllabus) and to take four General Studies papers, an Essay, an English language paper and a regional language paper. This is followed by an interview. The cadre is further augmented by promotion of non-gazetted civil service officers. Two thirds of the strength is filled by direct recruitment and the remaining by promotion.. "
+    },
+    {
+      "id": 7,
+      "name": "PONDICHERY CIVIL SERVICE",
+      "type": "Group B",
+      "image": "pond civil.jpg",
+      "description": "Pondicherry Civil Service and Pondicherry Police Service are administered by the central government as a central service. It comes under the Group 'B' civil services.The Group 'B' Services include the Central Secretariat Service (Section Officers GradE-CSS), the Railway Board Secretariat Service (Section Officers' GradE- RBSS), the Indian Foreign Service (Section Officers' GradE- IFS 'B'), the Armed Forces Headquarters Civil Service (Assistant Civilian Staff Officers Grade), the ..."
+    },
+    {
+      "id": 8,
+      "name": "INDIAN CIVIL ACCOUNTS SERVICE",
+      "type": "Group A",
+      "image": "ICAS.jpg",
+      "description": "The Indian Civil Accounts Service (ICAS) is one of the ‘Group A’ services created in 1976 to provide accounting and auditing services to the Government of India. It functions through the Indian Civil Accounts Organisation under the Ministry of Finance. This article provides information on the roles and responsibilities, pay scales, probationary period and career prospects of ICAS.Preparation of monthly and annual account statements along with periodic audits of revenue, deficits and borrowings. Monitoring and reconciliation of cash balances of the Government of India with the Reserve Bank of India.. "
+    },
+    {
+      "id": 9,
+      "name": "INDIAN CORPORATE LAW SERVICE",
+      "type": "Group A",
+      "image": "ICLS.jpg",
+      "description": "The Indian Corporate Law Service (Hindi: भारतीय कॉरपोरेट विधि सेवा) abbreviated as ICLS, is one of the Central Civil Services (Group A) and it functions under the Ministry of Corporate Affairs, Government of India. The service is entrusted with the responsibility of the implementation of Companies Act,1956, Companies Act, 2013 and The Limited liability Partnership Act, 2008..."
+    },
+    {
+      "id": 10,
+      "name": "INDIAN DEFENCE ACCOUNTS SERVICE",
+      "type": "Group A",
+      "image": "IDAS.jpg",
+      "description": "Indian Defence Accounts Service (IDAS) (Hindi: भारतीय रक्षा लेखा सेवा) is a Central Group 'A' Civil Service of the Republic of India established to provide Financial Advice, Payment, Accounts and Audit services to the Defence Services i.e. Indian Armed Forces (viz Army, Navy, Air Force and Coast Guard) and other allied organisations viz. Ordnance Factories, , Military Engineer Services, Border Roads Organisation, Defence Research and Development Organisation etc.IDAS officers are Group-A gazetted civilian officers under Ministry of Defence, Government of India. They are primarily recruited through the Civil Services Examination conducted by the Union Public Service Commission (UPSC) every year. . The cadre controlling authority (CCA) of IDAS is the CGDA. The total number of IDAS officers is approximately 550. The Controller General of Defence Accounts(CGDA) is the service head of the Indian Defence Accounts Service and also heads the Defence Accounts Department.. "
+    },
+    {
+      "id": 11,
+      "name": "INDIAN DEFENCE ESTATE SERVICE",
+      "type": "Group A",
+      "image": "IDES.jpg",
+      "description": "The Indian Defence Estates Service (abbreviated as IDES) (Hindi: भारतीय रक्षा सम्पदा सेवा) is a Civil Service in the Government of India.[2] Its Cadre Controlling Authority (CCA) is the Ministry of Defence. Civil Services Examination conducted every year by Union Public Service Commission provides a gateway for entry into this service. The Service traces its origin to 16 December 1926 and has been constantly evolving since then. The service was initially known as the Military Lands and Cantonment Service (1926-1983), and then Defence Lands and Cantonment Service (1983-1985). In 1985, it was renamed as the Indian Defence Estates Service. The service is governed by the Indian Defence Estates Service (Group A) Rules, 2013, where 75% intake is by direct recruitment and 25% by promotion.."
+    },
+    {
+      "id": 12,
+      "name": "INDIAN INFORAMATION SERVICE",
+      "type": "Group A",
+      "image": "IIS.jpg",
+      "description": "The Indian Information Service (IIS) (Hindi: भारतीय सूचना सेवा) is the central civil service under Group A[1][2] and Group B[1][3] of the Central Civil Services of the executive branch of the Government of India.Indian Information Service officers are the media managers of the Government of India. They act as a vital communication link between the Government and the people by way of disseminating information and communicating various Government policies and schemes to the public at large; and also collecting and providing valuable feedback to the Government for policy formulation.. "
+    },
+    {
+      "id": 13,
+      "name": "INDIAN ORDNANCE FACTORIES SERVICE",
+      "type": "Group B",
+      "image": "IOFS.jpg",
+      "description": "The Indian Ordnance Factories Service (IOFS) is a civil service of the Government of India. IOFS officers are Gazetted (Group A) defence-civilian officers under the Ministry of Defence. They are responsible for the administration of the Indian Ordnance Factories, which provide the indigenous defence production capabilities of India.."
+    },
+    {
+      "id": 14,
+      "name": "INDIAN COMMUNICATION FINANCE SERVICE",
+      "type": "Group A",
+      "image": "ICFS.jpg",
+      "description": "Indian Communication Finance Services (ICFS), which was founded in 1973, was formerly known as the Indian Post & Telecommunication Accounts and Finance Service (IP&TAFS). This service's primary function is to offer accounting and financial support to the Indian Post and Telecommunication Department.."
+    },
+    {
+      "id": 15,
+      "name": "INDIAN POSTAL SERVICE",
+      "type": "Group A",
+      "image": "IPOS.jpg",
+      "description": "The Indian Postal Service is one of the Group ‘A’ Civil Services of India. They are responsible for running ‘India Post’, the largest postal network in the world which provides services ranging from traditional postal services to banking and e-commerce services. It also provides non-commercial services such as disbursal of old-age pensions and MGNREGA wages. The IPoS cadre officers are the higher grade officers of the post office hierarchy in India. The cadre controlling authority for this service is the Ministry of Communications, Government of India. This article will provide information on the Indian Postal Service grade, pay scale and career growth.!"
+    },
+    {
+      "id": 16,
+      "name": "INDIAN RAILWAY ACCOUNTS SERVICE",
+      "type": "Group A",
+      "image": "IRAS.jpg",
+      "description": "The Indian Railway Accounts Service (IRAS) is a Group 'A' civil service that one may get recruited into on clearing the UPSC civil services exam. Every year the government appoints 25-30 officers. The IRAS officers are responsible for maintaining and managing the finances and accounts of the Indian Railways.."
+    },
+    {
+      "id": 17,
+      "name": "INDIAN RAILWAY PERSONNAL SERVICE",
+      "type": "Group A",
+      "image": "IRPS.jpg",
+      "description": "The Indian Railway Personnel Service (IRPS) is a Prestigious Group 'A' Central Civil Service cadre of the Government of India. The central civil servants of this service are responsible for managing the Human Resources of the Indian Railways and welfare of railway employees and their families. Railways has a work force of about 1.4 million employees. It is the only civil service of its kind in India and it creates a cadre of central civil servants specialized in human resource management in government of India."
+    },
+    {
+      "id": 18,
+      "name": "INDIAN RAILWAY TRAFFIC SERVICE",
+      "type": "Fruits",
+      "image": "IRTS.jpg",
+      "description": "The Indian Railway Traffic Service, abbreviated as IRTS is a Prestigious Group 'A' Central Civil Service Cadre of the Government of India. IRTS in its present form was reconstituted in 1967. The IRTS Cadre functions under the Administrative Control of the Ministry of Railways, Government of India. The civil servants under this service are responsible for Operation and Business Development of Indian Railways in the country. On one hand, IRTS officers co-ordinate among various technical departments of the Indian Railways, while on the other hand, they form the public interface of the Indian Railways. Colloquially called Traffic Officers, they are the primary facilitators of Railway services right from Planning of freight movement, Passenger transport, Passenger amenities to Station Management and Infrastructure Planning.. "
+    },
+    {
+      "id": 19,
+      "name": "INDIAN REVENUE SERVICE",
+      "type": "Group A",
+      "image": "IRS.jpg",
+      "description": "The IRS plays a crucial role mainly in the implementation of the direct taxes laws through the Income Tax Department. The Income Tax Department is one of the largest Government departments in India with about 75,000 employees spread across 550 locations. Almost every district of the country has an Income Tax office.. "
+    },
+    {
+      "id": 20,
+      "name": "INDIAN TRADE SERVICE",
+      "type": "Group A",
+      "image": "ITS.jpg",
+      "description": "The Indian Trade Service (ITS) is a Group ‘A’ central service that prospective candidates can get into on clearing the UPSC civil services examination. ITS service was started in 1977. Directorate General of Foreign Trade (DGFT) handles the Indian Trade Service (ITS). Directorate General of Foreign Trade (DGFT) comes under the Ministry of Commerce and Industry. The main mandate of the ITS is to take care of India’s foreign trade and commerce.This article will help IAS exam aspirants to understand the designation, payscale, role and responsibilities associated, and the career opportunities expected in the Indian Trade Service (ITS).."
+    },
+    {
+      "id": 21,
+      "name": "RAILWAY PROTECTION FORCE SERVICE",
+      "type": "Group A",
+      "image": "RPF.jpg",
+      "description": "Railway Protection Force (RPF) is an armed Force of the Union[2] under the administrative and operational control of Indian Railways, Ministry of Railways, Government of India established by the Railway Protection Force Act, 1957;[3] enacted by the Indian Parliament for the better protection and security of railway property and passenger area. It has the power to search, arrest, Enquiry, and prosecute offenses committed under Railway Property (Unlawful Possession) Act 1966, The Railways Act, 1989 (amended from time to time). However the power of arrests under other penal laws rests in the hands of the Government Railway Police (GRP) of state police."
+    },
+    {
+      "id": 22,
+      "name": "DANICS",
+      "type": "Group B",
+      "image": "DANICS.jpg",
+      "description": "Delhi, Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli and Daman and Diu Civil Service[1] is now called Delhi, Andaman, Nicobar Islands, Lakshwadeep, Dadra Nagar Haveli and Daman Diu Administrative Service (DANIAS) cadre civil servants are recruited directly through the Civil Services Examination and are responsible for the diverse administrative functions of the National Capital Territory of Delhi and the Union territories of India.."
+    },
+    {
+      "id": 23,
+      "name": " INDIAN ARMY",
+      "type": "Defence",
+      "image": "ARMY.jpg",
+      "description": "The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The President of India is the Supreme Commander of the Indian Army,[3] and its professional head is the Chief of Army Staff (COAS), who is a four-star general. Two officers have been conferred with the rank of field marshal, a five-star rank, which is a ceremonial position of great honour."
+    },
+    {
+      "name": " INDIAN NAVY",
+      "type": "Defence",
+      "image": "NAVY.jpg",
+      "description": "The Indian Navy (IN; Hindi: भारतीय नौसेना) is the maritime branch of the Indian Armed Forces. The President of India is the Supreme Commander of the Indian Navy. The Chief of Naval Staff, a four-star admiral, commands the navy. As a blue-water navy, it operates significantly in the Persian Gulf Region, the Horn of Africa, the Strait of Malacca, and routinely conducts anti-piracy operations and partners with other navies in the region. ."
+    },
+    {
+      "id": 25,
+      "name": " INDIAN AIR FORCE",
+      "type": "Defence",
+      "image": "AIR FORCE.jpg",
+      "description": "The Indian Air Force (IAF) is the air arm of the Indian Armed Forces. Its primary mission is to secure Indian airspace and to conduct aerial warfare during armed conflicts. It was officially established on 8 October 1932 as an auxiliary air force of the British Empire which honoured India's aviation service during World War II with the prefix Royal.[11] After India gained independence from United Kingdom in 1947, the name Royal Indian Air Force was kept and served in the name of the Dominion of India. With the transition to a republic in 1950, the prefix Royal was removed.."
+    },
+    {
+      "name": "sss",
+      "type": "weeee",
+      "description": "vhbhjjkklk;l;l'l;",
+      "id": 26
+    }
+  ]
+}

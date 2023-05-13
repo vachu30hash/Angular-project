@@ -1,0 +1,30 @@
+<form [formGroup]="productform"(ngSubmit)="onformsubmit()">
+<div mat-dialog-content class="content" >
+    <div class ="row">
+        <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+            <input matInput type="text" placeholder="Name" formControlName="name">
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+        <mat-label>Product Type</mat-label>
+            <input matInput type="text" placeholder="Type" formControlName="type">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+        <mat-label>Product Description</mat-label>
+            <input matInput type="text" placeholder="Description" formControlName="description">
+        </mat-form-field>
+</div>
+   
+
+
+</div>
+
+<div mat-dialog-action class="action">
+    <button class="save" mat-raised-button color="primary" type="submit">{{data ? "update" : "save"}}</button>
+</div>
+<button class="cancel" mat-raised-button type="button" [mat-dialog-close]="false">cancel</button>
+
+</form>

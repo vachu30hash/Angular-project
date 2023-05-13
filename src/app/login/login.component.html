@@ -1,0 +1,313 @@
+
+<!-- <div id="login-card" *ngIf="logform"> -->
+    <!-- <div id="image-left"><img src="http://localhostvegfull.png" alt=""></div>
+    <div id="image-center"><img src="http://localhostfreshologo.png" alt=""></div>
+    <div id="image-bottom-right"><img src="http://localhostspices.png" alt=""></div> -->
+        <!-- <table id="log-table">
+             <tr>
+                 <th>Email</th>
+                 <td><input type="text" [(ngModel)]="email"></td>
+             </tr>
+             <tr>
+                 <th>Password</th>
+                 <td><input type="password" [(ngModel)]="password"></td>
+             </tr>
+             <tr>
+                 
+                 <td colspan=2 
+                     style="text-align:center"><button  (click)="login()">Login</button></td>
+             </tr>
+             <tr>
+                 
+                 <td colspan=2 
+                     style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+             </tr>
+        </table>
+        <div class="loading" *ngIf="status"><img src="http://localhostloading.gif"></div>
+        <div class="errors">{{error}}</div>
+        
+    </div> -->
+
+
+    <!-- <div id="login-card" *ngIf="!logform"> -->
+        <!-- <div id="image-left"><img src="http://localhostvegfull.png" alt=""></div>
+        <div id="image-center"><img src="http://localhostfreshologo.png" alt=""></div>
+        <div id="image-bottom-right"><img src="http://localhostspices.png" alt=""></div> -->
+            <!-- <table id="log-table">
+                 <tr>
+                     <th>Username</th>
+                     <td><input type="text" [(ngModel)]="rusername"></td>
+                 </tr>
+                 <tr>
+                     <th>Password</th>
+                     <td><input type="password" [(ngModel)]="rpassword"></td>
+                 </tr>
+
+                 <tr>
+                    <th>Verify Password</th>
+                    <td><input type="password" [(ngModel)]="vpassword"></td>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <td> <input type="text" [(ngModel)]="remail"></td>
+                </tr>
+                 <tr>
+                     
+                     <td colspan=2 
+                         style="text-align:center"><button (click)="register()">Register</button></td>
+                 </tr>
+                 <tr>
+                     
+                     <td colspan=2 
+                         style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+                 </tr>
+            </table>
+              <div class="loading" *ngIf="status"><img src="http://localhostloading.gif"></div> -->
+            <!-- <div class="errors">{{rerror}}</div> -->
+    <!-- </div> --> 
+    <!-- <mat-card id="login-card" *ngIf="logform">
+        <mat-card-content>
+           Your content for the login form -->
+           <!-- <table id="log-table">
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="email"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="password"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button (click)="login()">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+          <div class="loading" *ngIf="status"><img src="http://localhostloading.gif"></div>
+          <div class="errors">{{error}}</div>
+        </mat-card-content>
+      </mat-card>
+      
+      <mat-card id="login-card" *ngIf="!logform">
+        <mat-card-content> --> 
+          <!-- Your content for the registration form -->
+          <!-- <table id="log-table">
+            <tr>
+              <th>Username</th>
+              <td><input type="text" [(ngModel)]="rusername"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="rpassword"></td>
+            </tr>
+            <tr>
+              <th>Verify Password</th>
+              <td><input type="password" [(ngModel)]="vpassword"></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="remail"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button (click)="register()">Register</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+          <div class="errors">{{rerror}}</div>
+        </mat-card-content>
+      </mat-card> -->
+       <!-- <mat-card id="login-card" *ngIf="logform">
+        <mat-card-content>
+          <h2>Login</h2>
+          <table id="log-table">
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="email"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="password"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-login" (click)="login()">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+          <div class="loading" *ngIf="status">
+            <img src="http://localhostloading.gif">
+          </div>
+          <div class="errors">{{error}}</div>
+        </mat-card-content>
+      </mat-card>
+      
+      <mat-card id="register-card" *ngIf="!logform">
+        <mat-card-content>
+          <h2>Registration</h2>
+          <table id="log-table">
+            <tr>
+              <th>Username</th>
+              <td><input type="text" [(ngModel)]="rusername"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="rpassword"></td>
+            </tr>
+            <tr>
+              <th>Verify Password</th>
+              <td><input type="password" [(ngModel)]="vpassword"></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="remail"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-register" (click)="register()">Register</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Already registered? Click here to login</td>
+            </tr>
+          </table>
+          <div class="errors">{{rerror}}</div>
+        </mat-card-content>
+      </mat-card>
+       
+ 
+       <mat-card id="login-card" *ngIf="logform">
+        <mat-card-content>
+          <h2>Login</h2>
+          <table id="log-table">
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="email"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="password"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-login" (click)="login()">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+          <div class="loading" *ngIf="status">
+            <img src="http://localhostloading.gif">
+          </div>
+          <div class="errors">{{error}}</div>
+        </mat-card-content>
+      </mat-card>
+      
+      <mat-card id="register-card" *ngIf="!logform">
+        <mat-card-content>
+          <h2>Registration</h2>
+          <table id="log-table">
+            <tr>
+              <th>Username</th>
+              <td><input type="text" [(ngModel)]="rusername"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="rpassword"></td>
+            </tr>
+            <tr>
+              <th>Verify Password</th>
+              <td><input type="password" [(ngModel)]="vpassword"></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="remail"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-register" (click)="register()">Register</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Already registered? Click here to login</td>
+            </tr>
+          </table>
+          <div class="errors">{{rerror}}</div>
+        </mat-card-content>
+      </mat-card> -->
+
+
+
+      <mat-card id="login-card" *ngIf="logform">
+        <mat-card-content>
+          <h2>Login</h2>
+          <table id="log-table">
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="email"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="password"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-login" (click)="login()">Login</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
+            </tr>
+          </table>
+          <div class="loading" *ngIf="status">
+            <img src="http://localhostloading.gif">
+          </div>
+          <div class="errors">{{error}}</div>
+        </mat-card-content>
+      </mat-card>
+      
+      <mat-card id="register-card" *ngIf="!logform">
+        <mat-card-content>
+          <h2>Registration</h2>
+          <table id="log-table">
+            <tr>
+              <th>Username</th>
+              <td><input type="text" [(ngModel)]="rusername"></td>
+            </tr>
+            <tr>
+              <th>Password</th>
+              <td><input type="password" [(ngModel)]="rpassword"></td>
+            </tr>
+            <tr>
+              <th>Verify Password</th>
+              <td><input type="password" [(ngModel)]="vpassword"></td>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td><input type="text" [(ngModel)]="remail"></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <button class="btn-register" (click)="register()">Register</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center; color: lightgreen" (click)="toggle()">Already registered? Click here to login</td>
+            </tr>
+          </table>
+          <div class="errors">{{rerror}}</div>
+        </mat-card-content>
+      </mat-card>
+      
+      

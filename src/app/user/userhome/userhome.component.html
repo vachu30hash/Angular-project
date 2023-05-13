@@ -1,0 +1,17 @@
+
+
+<!-- <button (click)="changetocontact()">contactus</button> -->
+<div id="container">
+<!--     
+    <app-productrow [products]="products" [producttitle]="'All Products'" ></app-productrow>
+    <app-productrow [products]="vproducts" [producttitle]="'Civil services'"  ></app-productrow> 
+    <app-productrow [products]="fproducts" [producttitle]="'Group(A&B) services'" ></app-productrow>
+    <app-productrow [products]="sproducts" [producttitle]="'Defence services '" ></app-productrow> -->
+
+    <app-product *ngFor="let x of products | typefilter:selected" [product]= "x" ></app-product>
+</div>
+<mat-form-field>
+    <mat-select [(ngModel)]="selected" placeholder="{{'categories'}}">
+        <mat-option *ngFor="let x of types"[value]="x">{{x}}</mat-option>
+</mat-select>
+</mat-form-field>
