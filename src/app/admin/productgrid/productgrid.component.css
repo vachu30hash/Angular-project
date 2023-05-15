@@ -1,7 +1,14 @@
 table {
     width: 100%;
-    background-color: aqua;
+   
   }
   th {
-    background-color: black;
+    background-color:antiquewhite ;
+  }
+  .example-spacer{
+    flex: 2 2 auto;
+  }
+  .mat-form-field{
+    font-size:14px;
+    width: 100px;
   }

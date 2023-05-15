@@ -87,6 +87,13 @@
       "type": "admin",
       "username": "admin1",
       "id": 13
+    },
+    {
+      "email": "vachuu@gmail.com",
+      "password": "$2a$10$pS2InGIA2wSL/Ivc39oJfuoMKYZEvSAVY6PFTW36E3PdeA6wvkgEu",
+      "username": "VACHU",
+      "type": "user",
+      "id": 14
     }
   ],
   "products": [
@@ -269,6 +276,18 @@
       "type": "weeee",
       "description": "vhbhjjkklk;l;l'l;",
       "id": 26
+    },
+    {
+      "name": "vachhhhh",
+      "type": "4667777",
+      "description": "bncaksdjhkajfh",
+      "id": 27
+    },
+    {
+      "name": "dddd",
+      "type": "222",
+      "description": "4444",
+      "id": 28
     }
   ]
 }
